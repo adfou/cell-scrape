@@ -1,0 +1,9 @@
+<h1> all links </h1>
+<ul>
+{% for o in list %}
+<li><h2 href="/scrap/{{ o }}/">{{ o.type }} </h2></li>
+<li><h2 href="/scrap/{{ o }}/">{{ o.text }} </h2></li>
+<li>{{ o.para}} </li>
+
+{% endfor %} 
+<ul>
